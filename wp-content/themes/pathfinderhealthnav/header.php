@@ -35,3 +35,4 @@
 <body>
 
 <?php require('nav.php'); ?>
+<?php show_admin_bar(false) ?>
