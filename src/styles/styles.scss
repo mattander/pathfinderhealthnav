@@ -40,6 +40,10 @@ body {
         margin: 1.25rem 2.25rem;
       }
     }
+
+    @include breakpoint(lg) {
+      margin-left: 4rem;
+    }
   }
 
   .navbar-toggler-icon {
