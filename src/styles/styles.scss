@@ -24,6 +24,10 @@ body {
   box-shadow: 1px 1px 5px $colour-box-shadow;
   background-color: white;
 
+  .navbar-nav {
+    margin-top: 0;
+  }
+
   .navbar-brand {
 
     img {
