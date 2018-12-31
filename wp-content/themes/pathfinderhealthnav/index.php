@@ -1,5 +1,10 @@
-<?php require('header.php');?>
+<?php require('header.php'); ?>
 
-<h1>Index</h1>
+<div class="page-content mt-4">
+<h1><?php the_title(); ?></h1>
+<section id="main-content">
+  <?php echo get_field('content'); ?>
+</section>
+</div>
 
-<?php require('footer.php');?>
+<?php require('footer.php'); ?>

@@ -12,27 +12,34 @@ show_admin_bar(false);
             </div>
         </article>
     </section>
+    <h2 class="container mb-4"><?php echo get_field('services_section_title'); ?></h2>
     <section class="services container">
-
         <article class="card">
             <div class="card-body">
-                <h4 class="card-title">Service 1</h4>
-                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi fugiat alias voluptates! Consequuntur enim velit necessitatibus. Dolores, aliquid error aspernatur vitae culpa maxime debitis vel saepe ratione atque, consectetur obcaecati?</p>
-                <a href="" class="btn btn-primary">Learn more</a>
+                <h4 class="card-title"><?php echo get_field('service_1_card_title'); ?></h4>
+                <p class="card-text"><?php echo get_field('service_1_card_text'); ?></p>
+                <a href="<?php echo get_field('service_1_card_link'); ?>" class="btn btn-primary card-link">Learn more</a>
             </div>
         </article>
         <article class="card">
             <div class="card-body">
-                <h4 class="card-title">Service 2</h4>
-                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi fugiat alias voluptates! Consequuntur enim velit necessitatibus. Dolores, aliquid error aspernatur vitae culpa maxime debitis vel saepe ratione atque, consectetur obcaecati?</p>
-                <a href="" class="btn btn-primary">Learn more</a>
+                <h4 class="card-title"><?php echo get_field('service_2_card_title'); ?></h4>
+                <p class="card-text"><?php echo get_field('service_2_card_text'); ?></p>
+                <a href="<?php echo get_field('service_2_card_link'); ?>" class="btn btn-primary card-link">Learn more</a>
             </div>
         </article>
         <article class="card">
             <div class="card-body">
-                <h4 class="card-title">Service 3</h4>
-                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi fugiat alias voluptates! Consequuntur enim velit necessitatibus. Dolores, aliquid error aspernatur vitae culpa maxime debitis vel saepe ratione atque, consectetur obcaecati?</p>
-                <a href="" class="btn btn-primary">Learn more</a>
+                <h4 class="card-title"><?php echo get_field('service_3_card_title'); ?></h4>
+                <p class="card-text"><?php echo get_field('service_3_card_text'); ?></p>
+                <a href="<?php echo get_field('service_3_card_link'); ?>" class="btn btn-primary card-link">Learn more</a>
+            </div>
+        </article>
+        <article class="card">
+            <div class="card-body">
+                <h4 class="card-title"><?php echo get_field('service_4_card_title'); ?></h4>
+                <p class="card-text"><?php echo get_field('service_4_card_text'); ?></p>
+                <a href="<?php echo get_field('service_4_card_link'); ?>" class="btn btn-primary card-link">Learn more</a>
             </div>
         </article>
     </section>
