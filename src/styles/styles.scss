@@ -15,6 +15,7 @@ Text Domain: Pathfinder Health Navigation.ca
 
 body {
   background-color: $colour-canvas-default;
+  @include typography_stack;
 }
 
 /* Navigation Module */
