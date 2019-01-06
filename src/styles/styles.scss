@@ -24,6 +24,14 @@ body {
   box-shadow: 1px 1px 5px $colour-box-shadow;
   background-color: white;
 
+  .nav-menu {
+    border: 1px solid $colour-dark-grey;
+    border-radius: 3.4px;
+    padding: .25rem .5rem;
+    margin-right: -1rem;
+    font-weight: 400;
+  }
+
   .navbar-nav {
     margin-top: 0;
   }
@@ -33,11 +41,10 @@ body {
     img {
       width: 150px;
       height: auto;
-    }
 
-    @include breakpoint(sm) {
-      img {
+      @include breakpoint(sm) {
         margin: 1.25rem 2.25rem;
+        width: 185px;
       }
     }
 
@@ -61,10 +68,6 @@ body {
   }
 }
 
-.navbar-toggler-icon .fa-bars {
-  font-size: 2.8rem;
-}
-
 /* Homepage Header Module */
 
 .jumbotron {
@@ -78,6 +81,10 @@ body {
     /*width: 70%;*/
     h1 {
       font-family: "Bitter", Arial, Helvetica, sans-serif;
+
+      @include breakpoint(xs) {
+        font-size: 3.425rem;
+      }
     }
   }
 }
@@ -98,6 +105,10 @@ body {
       display: flex;
       flex-flow: column nowrap;
       justify-content: space-between;
+
+      .card-link {
+        align-self: center;
+      }
     }
   }
 
