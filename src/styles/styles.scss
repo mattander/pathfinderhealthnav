@@ -43,13 +43,13 @@ body {
       height: auto;
 
       @include breakpoint(sm) {
-        margin: 1.25rem 2.25rem;
+        margin: 1.25rem 2rem 1.25rem 0;
         width: 185px;
       }
     }
 
     @include breakpoint(lg) {
-      margin-left: 4rem;
+      // margin-left: 4rem;
     }
   }
 
