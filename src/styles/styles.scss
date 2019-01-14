@@ -141,3 +141,18 @@ body {
 }
 
 /* UTILITIES */
+
+//Float right for profile image on large devices.
+
+.profile-image {
+  @include breakpoint(xs) {
+    img {
+      width: 100%;
+    }
+  }
+
+  @include breakpoint(sm) {
+    float: right;
+    margin: .75rem;
+  }
+}
