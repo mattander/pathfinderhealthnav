@@ -36,10 +36,9 @@
   <title>
     <?php the_title() ?> Pathfinder Health Navigation</title>
   <?php wp_head(); ?>
-  <!-- <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet"> -->
+  <link rel="shortcut icon" href="<?php echo get_template_directory_uri().'/favicon.ico' ?>">
 </head>
 
 <body>
-
   <?php require('nav.php'); ?>
-  <?php show_admin_bar(false) ?>
+  <?php show_admin_bar(true) ?>

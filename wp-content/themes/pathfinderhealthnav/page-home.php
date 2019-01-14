@@ -1,5 +1,4 @@
 <?php require('header.php');
-show_admin_bar(false);
 ?>
 <section class="jumbotron">
   <article class="jumbotron__container container">
