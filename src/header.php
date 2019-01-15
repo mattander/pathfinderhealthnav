@@ -34,7 +34,7 @@
   <meta name="pagename" id="pageName" content="">
   <meta name="description" content="<?php echo get_field('description'); ?>">
   <title>
-    <?php the_title() ?> Pathfinder Health Navigation</title>
+    <?php the_title() ?> - Pathfinder Health Navigation</title>
   <?php wp_head(); ?>
   <link rel="shortcut icon" href="<?php echo get_template_directory_uri().'/favicon.ico' ?>">
 </head>
