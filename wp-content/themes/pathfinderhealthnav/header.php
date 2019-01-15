@@ -37,7 +37,6 @@
     <?php the_title() ?> - Pathfinder Health Navigation</title>
   <?php wp_head(); ?>
   <link rel="shortcut icon" href="<?php echo get_template_directory_uri().'/favicon.ico' ?>">
-  <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
 </head>
 
 <body>
