@@ -1,7 +1,7 @@
 <nav id="mainNav" class="navbar navbar-expand-lg">
 
   <div class="container">
-    <a class="navbar-brand" href="/"><img src="<?php echo get_theme_file_uri('images/logo.png'); ?>" alt=""></a>
+    <a class="navbar-brand" href="/"><img src="<?php echo get_theme_file_uri('images/logo-dark.png'); ?>" alt=""></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="nav-menu">Menu</span>

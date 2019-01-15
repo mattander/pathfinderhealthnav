@@ -22,7 +22,7 @@ body {
 
 #mainNav {
   box-shadow: 1px 1px 5px $colour-box-shadow;
-  background-color: white;
+  background-color: $colour-navbar-background-dark;
 
   .nav-menu {
     border: 1px solid $colour-dark-grey;
@@ -43,7 +43,7 @@ body {
       height: auto;
 
       @include breakpoint(sm) {
-        margin: 1.25rem 2rem 1.25rem 0;
+        margin: 1.25rem 1rem 1.25rem 0;
         width: 185px;
       }
     }
@@ -64,7 +64,12 @@ body {
 
   a {
     font-size: 1.125rem;
-    font-weight: 400;
+    font-weight: 600;
+    color: $colour-text-light-1;
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }
 
