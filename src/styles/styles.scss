@@ -28,7 +28,6 @@ body {
     border: 1px solid $colour-text-light-1;
     border-radius: 3.4px;
     padding: .25rem .5rem;
-    margin-right: -1rem;
     font-weight: 400;
     color: $colour-text-light-1;
     background-color: #3e3e3e;
@@ -78,14 +77,54 @@ body {
 /* Homepage Header Module */
 
 .jumbotron {
-  background: linear-gradient(rgba(0, 0, 0, .5), rgba(30, 30, 30, 0.5)), url("../images/header-bg-1.jpeg") no-repeat center center;
-  background-size: cover;
-  color: $colour-text-light-1;
+  // background: $colour-jumbotron-background url("../images/two-figures-pointing.png") no-repeat 70% 100%;
+
+  // @include breakpoint (sm) {
+  //   background: $colour-jumbotron-background url("../images/two-figures-pointing.png") no-repeat 150% 100%;
+  //   background-size: 75%;
+  // }
+
+  // @include breakpoint (lg) {
+  //   background: $colour-jumbotron-background url("../images/two-figures-pointing.png") no-repeat 80% 100%;
+  //   background-size: contain;
+  // }
+
+  // background-size: contain;
+  background-color: $colour-jumbotron-background;
+  color: $colour-text-dark-1;
   border-radius: 0;
+  padding: 0;
+
+  .jumbotron-image {
+    width: 80%;
+    margin: 2rem 10%;
+
+    @include breakpoint(sm) {
+      width: 76%;
+      margin: 2rem 12%;
+    }
+
+    @include breakpoint(md) {
+      width: 100%;
+    }
+  }
+
+
+  .header-text-container {
+    border: solid 2px rgba(10, 10, 10, .7);
+    padding: 1.5rem 2.5rem;
+    background-color: rgba(216, 216, 216, 0.3);
+
+    @include breakpoint(sm) {
+      background-color: rgba(216, 216, 216, 0.5);
+    }
+
+    border-radius: 3.8px;
+  }
 
   .jumbotron__container {
+    padding: 4rem 2rem 0 2rem;
 
-    /*width: 70%;*/
     h1 {
       font-family: "Lato", Arial, Helvetica, sans-serif;
       font-weight: bolder;
@@ -96,11 +135,11 @@ body {
     }
   }
 
-  .jumbotron__heading {
-    @include breakpoint(md) {
-      width: 550px;
-    }
-  }
+  // .jumbotron__heading {
+  //   @include breakpoint(md) {
+  //     width: 550px;
+  //   }
+  // }
 }
 
 /* Service Cards Module */
@@ -151,6 +190,20 @@ body {
 
   * {
     color: $colour-text-light-1;
+  }
+}
+
+/* BUTTON MODULE */
+
+.btn.btn-primary {
+  background-color: $colour-button-primary;
+
+  &:hover,
+  &:active,
+  &:focus,
+  &:hover:active,
+  &:active:focus {
+    background-color: $colour-button-primary-hover !important;
   }
 }
 

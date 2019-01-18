@@ -3,7 +3,7 @@
 <section class="jumbotron">
   <article class="jumbotron__container container">
     <div class="row">
-      <div class="col-xs-10 col-sm-9">
+      <div class="col-xs-12 col-md-10 col-lg-6">
         <h1 class="jumbotron__heading">
           <?php echo get_field('header_title') ?>
         </h1>
@@ -12,6 +12,10 @@
         </div>
         <a href="<?php echo get_field('header_button_link') ?>" class="btn btn-lg btn-primary">
           <?php echo get_field('header_button_text') ?></a>
+      </div>
+      <div class="col-xs-12 col-md-12 col-lg-6">
+        <img class="jumbotron-image" src="<?php echo get_template_directory_uri() . '/images/two-figures-pointing.png'; ?>"
+          alt="">
       </div>
     </div>
   </article>
