@@ -1,14 +1,17 @@
 /* Main Colour Palette */
 
-$linear-gradient-dark: linear-gradient(rgba(0, 0, 0, .5), rgba(30, 30, 30, 0.5));
-$linear-gradient-light: linear-gradient(rgba(254, 215, 102, .2), rgba(254, 215, 102, .2));
+$linear-gradient-dark: linear-gradient(rgba(30, 30, 30, .5), rgba(30, 30, 30, 0.5));
+$linear-gradient-light: linear-gradient(rgba(200, 200, 200, 0.5), rgba(200, 200, 200, 0.5));
+
+$colour-transparent-dark:rgba(30, 30, 30, .5);
+$colour-transparent-light: rgba(200, 200, 200, 0.5);
 
 // $colour-jumbotron-background: #3578bb;
 // $colour-jumbotron-background: #84A07C;
 // $colour-jumbotron-background: #CEB5A7;
 $colour-jumbotron-background: rgb(254, 215, 102);
 
-$colour-canvas-default: rgb(255, 250, 250);
+$colour-canvas-default: rgb(252, 243, 243);
 $colour-dark-grey: rgb(19, 21, 22);
 $colour-dark-grey-light: rgba(125, 131, 134, 0.4);
 

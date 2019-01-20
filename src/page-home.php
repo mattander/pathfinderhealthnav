@@ -14,7 +14,7 @@
           <?php echo get_field('header_button_text') ?></a>
       </div>
       <div class="col-xs-12 col-md-12 col-lg-6">
-        <img class="jumbotron-image" src="<?php echo get_template_directory_uri() . '/images/two-figures-pointing.png'; ?>"
+        <img class="jumbotron-image" src="<?php echo get_template_directory_uri() . '/images/two-figures-pointing-2.png'; ?>"
           alt="">
       </div>
     </div>
