@@ -78,8 +78,8 @@ body {
 /* Homepage Header Module */
 
 .jumbotron {
-  background: $linear-gradient-light, url("../images/home-banner-background-2.png") no-repeat center 30%;
-  background-size: auto;
+  background: $linear-gradient-light, url("../images/home-banner-background-2.png") no-repeat center 50%;
+  background-size: cover;
   color: $colour-text-dark-3;
   border-radius: 0;
   padding: 2rem 1rem 0 1rem;
